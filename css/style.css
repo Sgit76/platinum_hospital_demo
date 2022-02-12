@@ -44,11 +44,20 @@
     color: hotpink;
 }
 
+/*health*/
 .health h1{
     font-weight: 900;
     padding: 2px;
     color: hotpink;
 }
+/*footer*/
+
+.footer-section{
+    background: hotpink;
+    color: aliceblue;
+}
+
+/*media query*/
 @media only screen and (min-height:360px) and (max-width:740px) {
     .container-top {
         display:inline-block;

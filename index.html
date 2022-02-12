@@ -21,27 +21,26 @@
         <header>
             <!--top bar start-->
             <section class="container-top fixed-top">
-                <div class="container-fluid">
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-                        <div class="col"></div>
-                        <div class="col d-flex justify-content-center align-items-center">
+                <div class="container">
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-8 row-cols-lg-12 row-cols-xl-12 d-flex justify-content-evenly align-items-center">
+                        <div class="col">
                             <span class="mx-1">Follow us on:</span>
                             <i class="fab fa-facebook mx-1"></i>
                             <i class="fab fa-twitter  mx-1"></i>
                             <i class="fab fa-linkedin mx-1"></i>
                             <i class="fab fa-youtube  mx-1"></i>
                         </div>
-                        <div class="col d-flex justify-content-center align-items-center">
+                        <div class="col">
                             <span class="mx-1"><i class="fas fa-phone-alt px-2"></i> 01642 </span>
                             <span class="mx-1"> <i class="fas fa-at"></i> info@hospital.com</span>
                         </div>
-                        <div class="col"></div>
+                        
                     </div>
                 </div>
             </section>
             <!--top bar end-->
             <!--navbar start-->
-            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow py-4"style="margin-top: 2rem !important;">
+            <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow py-4" style=" margin-top: 2rem;">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
@@ -49,17 +48,17 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                        <a class="navbar-brand" href="#">Platinum Hospital</a>
+                        <a class="navbar-brand" href="#">Hospital Logo</a>
                         <div>
                             <ul class="navbar-nav  me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="#featured">Home</a>
+                                    <a class="nav-link " aria-current="page" href="#featured">Home</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#service">Service</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Doctors</a>
+                                    <a class="nav-link" href="#doctors">Doctors</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Helth Tips</a>
@@ -83,7 +82,7 @@
         <!---headersection end--->
 
         <!--featured section srart-->
-        <section class="featured">
+        <section class="featured my-5 pt-5">
             <div class="" id="featured">
                 <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                     <div class="carousel-indicators">
@@ -133,8 +132,8 @@
         <!--featured section end-->
 
         <!--service content start-->
-        <section class="service" >
-            <div class="container my-5" id="service">
+        <section class="service my-5 bg-white" >
+            <div class="container py-4" id="service">
                 <h1>The Best Possible Care. <br> The Best Possible People.</h1>
                 <h5>At Platinum, we have built a healthcare system where you come first.
                     Because nothing is more important than your and your family’s health.</h5>
@@ -149,7 +148,7 @@
                                     doctors. They take the time to listen to you and understand your healthcare needs.
                                 </p>
                             </div>
-                            <div class="card-footer d-flex justify-content-center">
+                            <div class="footer d-flex justify-content-center my-3">
                                 <button class="btn text-center service-button">Appoint Doctor</button>
                             </div>
                         </div>
@@ -161,7 +160,7 @@
                                 <h5 class="card-title">Diagnostics</h5>
                                 <p class="card-text">Our lab participates in the world’s largest external quality assessment scheme. Our average accuracy score is 99.9% and rated one of the best in Bangladesh.</p>
                             </div>
-                            <div class="card-footer d-flex justify-content-center">
+                            <div class="footer d-flex justify-content-center my-3">
                                 <button class="btn text-center service-button">Apply for test</button>
                             </div>
                         </div>
@@ -173,7 +172,7 @@
                                 <h5 class="card-title">Our Mission</h5>
                                 <p class="card-text">You can get the care you need 24/7 – be it online or in clinic. And you can manage your health via our app: book appointments, access your test results, and more.</p>
                             </div>
-                            <div class="card-footer d-flex justify-content-center">
+                            <div class="footer d-flex justify-content-center my-3">
                                 <button class="btn text-center service-button">Show Details</button>
                             </div>
                         </div>
@@ -184,7 +183,61 @@
         <!--service content end-->
 
         <!--Doctors content start-->
-        <!--Slider-->
+        <section class="doctors my-5 bg-white" id="doctors" >
+            <div class="container">
+                <div class="row row-cols-1 row-cols-md-2">
+                    
+                    <div class="col">
+                        <h1 class="">Our Doctors</h1>
+                        <br>
+                        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            </div>
+                            <div class="carousel-inner">
+                              <div class="carousel-item active" data-bs-interval="10000">
+                                <img src="/images/doctor/id3.jpg" height="300px"  class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <!-- <h5>First slide label</h5>
+                                  <p>Some representative placeholder content for the first slide.</p> -->
+                                </div>
+                              </div>
+                              <div class="carousel-item" data-bs-interval="2000">
+                                <img src="/images/doctor/id4.jpg" height="300px"  class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <!-- <h5>Second slide label</h5>
+                                  <p>Some representative placeholder content for the second slide.</p> -->
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <img src="/images/doctor/id6.jpg" height="300px"  class="d-block w-100" alt="...">
+                                <div class="carousel-caption d-none d-md-block">
+                                  <!-- <h5>Third slide label</h5>
+                                  <p>Some representative placeholder content for the third slide.</p> -->
+                                </div>
+                              </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="visually-hidden">Next</span>
+                            </button>
+                          </div>
+                    </div>
+                    <div class="col d-flex align-items-center">
+                        <blockquote>" Medicines cure diseases, but only doctors can cure patients."<br>- Carl Jung.</blockquote>
+                        
+                        
+                        <img src="/images/side-photo.png" class="float-end" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
         <!--Doctors content end-->
 
         <!--Doctors talk content start-->

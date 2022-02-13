@@ -40,12 +40,19 @@
 /*Departments*/
 
 .department-info{
-    font-size: small;
-    font-weight: 900;
+    /* font-size: small; */
+    font-weight: 700;
+    font-style:italic;
     padding: 2px;
     color:rgb(105, 200, 255);
+    border: 2px solid hotpink;
+    padding: 10px;
+    border-radius: 50px 20px;
 }
 
+.shadow-info{
+    box-shadow: 2px 2px hotpink;
+}
 
 .departments h1{
     font-weight: 700;

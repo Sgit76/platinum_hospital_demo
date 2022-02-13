@@ -40,7 +40,8 @@
 /*Departments*/
 
 .department-info{
-    font-weight: 600;
+    font-size: small;
+    font-weight: 900;
     padding: 2px;
     color:rgb(105, 200, 255);
 }
@@ -87,6 +88,9 @@
     .navbar{
         margin-top: 3rem!important;
     }
+    .department-info{
+        font-size: x-small;
+    }
 }
 
  @media only screen and (max-width:688px) {
@@ -96,11 +100,17 @@
     .navbar{
         margin-top: -1rem!important;
     }
+    .department-info{
+        font-size: x-small;
+    }
 }
 
 @media only screen and (min-width:689px) and (max-width:991px) {
     .container-top {
         display:inline-block;
+    }
+    .department-info{
+        font-size: x-small;
     }
 }
 

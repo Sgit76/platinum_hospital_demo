@@ -7,10 +7,14 @@
     margin: 0;
     width: 100%;
 }
+/*featured*/
 
+.featured h3{
+    color: rgba(0, 162, 255, 0.842);
+}
 /*header*/
 .container-top{
-    background-color: hotpink;
+    background-color: rgba(0, 162, 255, 0.842);
     padding: 5px;
     font-weight: 400;
     color: rgb(245, 246, 248);
@@ -22,17 +26,17 @@
 .service h1{
     font-weight: 700;
     padding: 2px;
-    color: hotpink;
+    color: rgba(0, 162, 255, 0.842);
 }
 
 .service h5{
     font-weight: 700;
     padding: 2px;
-    color:rgb(105, 200, 255);
+    color:#286090;
 }
 
 .service-button{
-    background: hotpink;
+    background: rgba(0, 162, 255, 0.842);
     color:aliceblue;
     position: center;
 }
@@ -44,46 +48,46 @@
     font-weight: 700;
     font-style:italic;
     padding: 2px;
-    color:rgb(105, 200, 255);
-    border: 2px solid hotpink;
-    padding: 10px;
-    border-radius: 50px 20px;
+    color:#286090;
+    /* border: 2px solid #286090; */
+   /*  padding: 10px;
+    border-radius: 50px 20px; */
 }
 
 .shadow-info{
-    box-shadow: 2px 2px hotpink;
+    /* box-shadow: 2px 2px #286090; */
 }
 
 .departments h1{
     font-weight: 700;
     padding: 2px;
-    color: hotpink;
+    color: rgba(0, 162, 255, 0.842);
 }
 
 /*doctors*/
 .doctors h1{
     font-weight: 700;
     padding: 2px;
-    color: hotpink;
+    color: rgba(0, 162, 255, 0.842);
 }
 
 /*health*/
 .health h1{
     font-weight: 900;
     padding: 2px;
-    color: hotpink;
+    color: rgba(0, 162, 255, 0.842);
 }
 
 .doctor-appoint-btn{
     padding-left: 15px;
     padding-right: 15px;
-    background: hotpink;
+    background: rgba(0, 162, 255, 0.842);
     color: white;
 }
 /*footer*/
 
 .footer-section{
-    background: hotpink;
+    background: rgba(0, 162, 255, 0.842);
     color: aliceblue;
 }
 

@@ -37,6 +37,21 @@
     position: center;
 }
 
+/*Departments*/
+
+.department-info{
+    font-weight: 600;
+    padding: 2px;
+    color:rgb(105, 200, 255);
+}
+
+
+.departments h1{
+    font-weight: 700;
+    padding: 2px;
+    color: hotpink;
+}
+
 /*doctors*/
 .doctors h1{
     font-weight: 700;

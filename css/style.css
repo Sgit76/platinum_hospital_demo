@@ -50,6 +50,13 @@
     padding: 2px;
     color: hotpink;
 }
+
+.doctor-appoint-btn{
+    padding-left: 15px;
+    padding-right: 15px;
+    background: hotpink;
+    color: white;
+}
 /*footer*/
 
 .footer-section{
